@@ -75,9 +75,6 @@ input[type=radio]:disabled:checked+label::after {
                             </div>
                         
             </div>
-            
-
-          
                 <table border="1" cellspacing="1" cellpadding="0" class="responsive" style="width:100%;height:80px;margin-bottom:20px;margin-top:20px;">
                     <tbody>
                         <tr>
