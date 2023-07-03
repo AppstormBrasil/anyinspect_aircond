@@ -1,0 +1,17 @@
+#sjfb-wrap{
+  background: #f2f5f8;
+  padding-top: 5px;
+}
+.sjfb-field{
+  background: white;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+#sjfb-fields .block-title{
+  font-size: 15px;
+  padding: 10px;
+  font-weight: 600;
+  width: 100%;
+}
+

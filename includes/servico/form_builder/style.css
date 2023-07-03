@@ -1,0 +1,433 @@
+#sjfb-wrap .hide {
+    display: none;
+}
+
+ol li i{
+    font-size:17px!important;
+}
+
+#carregar{cursor: pointer;}
+#sjfb .has-error{
+    position: relative!important;
+}
+
+#sjfb-wrap h1 {
+    margin-top: 10px;
+}
+
+#sjfb-wrap h3 {
+    margin: 6px 0;
+    text-transform: capitalize;
+}
+.shadow_form {
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2), 0 0 4px 0 rgba(0,0,0,0.1);
+}
+
+#sjfb-wrap h4 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    padding-left: 5px;
+    color: #161616;
+}
+
+
+
+#sjfb-wrap ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sjfb-field{
+  margin-top: 15px;
+}
+
+
+#sjfb-wrap .add-wrap a {
+    color: #111;
+}
+
+#sjfb-wrap .add-wrap li {
+    padding: 2px 0;
+}
+
+#sjfb-wrap .add-wrap li a:hover {
+    padding-left: 5px;
+    color: #000;
+}
+
+.sjfb-text label{font-weight: 600;}
+.sjfb-textarea label{font-weight: 600;}
+
+#sjfb-wrap .alert {
+    background-color: #00a65a;
+    border: 1px solid #008d4c;
+    padding: 10px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+#sjfb-wrap .alert textarea {
+    display: block;
+    margin-top: 10px;
+    width: 95%;
+    min-height: 140px;
+}
+
+#sjfb-wrap h2 {
+    margin: 4px 0;
+    font-weight: normal;
+}
+
+#sjfb .field {
+    border: 1px dashed #ddd;
+    margin-bottom: 4px;
+    padding: 5px 10px;
+    border-left: 2px solid #9E9E9E;
+}
+
+#sjfb .field:hover {
+    background-color: #f4f4f4;
+    cursor: move;
+}
+
+#sjfb .choices li:hover {
+    background-color: #d1d1d1 !important;
+    cursor: move;
+}
+
+#sjfb label {
+    margin: 0;
+    width: 95%;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+#sjfb .toggle-required{
+    width:initial!important;  
+}
+
+#sjfb .form-fields{padding: 15px}
+
+#sjfb .toggle-selected,
+#sjfb .toggle-required {
+    margin: 0 0 0 5px;
+    width: initial!important;
+    height: 13px;
+}
+
+#sjfb .add-choice {
+    color: #ffffff;
+    background: #E91E63;
+    padding: 6px;
+    border-radius: 4px;
+    font-size: 11px;
+    margin-top: 7px!important;
+    margin-bottom: 5px!important;
+    line-height: 3;
+    text-decoration: none;
+}
+
+#sjfb .delete {
+    float: right;
+    color: #40201e;
+}
+
+#sjfb .delete_options {
+    margin-top: -60px;
+    z-index: 55555;
+}
+
+#sjfb .delete_options i {
+    font-size:17px;
+}
+
+#sjfb a i {
+    font-size:16px;
+}
+
+#sjfb input {
+    font-weight: normal;
+    width: 100%;
+    height: 35px;
+    border: 1px solid #E3E3E3;
+    border-radius: 5px;
+    color: #2c2c2c;
+    line-height: normal;
+    font-size: 14px;
+    -webkit-transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    -moz-transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    -ms-transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding-left: 5px
+}
+
+
+
+#sjfb .choices {
+    margin: 10px 0px;
+    padding: 5px;
+    background: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+
+#sjfb .choices li {
+    padding: 10px;
+    margin: 4px 0;
+    border-radius: 4px;
+}
+
+#sjfb .choices li:nth-child(even) {
+    background: #e7e7e7;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+
+
+#sjfb .delete-choice {
+    margin-left: 5px;
+    font-weight: normal;
+}
+
+.block-title {
+    display: block;
+    font-weight: 600;
+}
+
+#sjfb-sample .form-fields {
+    margin: 10px 0;
+}
+
+#sjfb > button {
+    margin: 20px 0 10px;
+}
+
+#sjfb-sample {
+    margin:auto;
+}
+
+#sjfb-sample input[type="text"],
+#sjfb-sample textarea {
+    width: 100%;
+    padding: 8px;
+}
+
+
+
+#sjfb-sample textarea {
+    min-height: 70px;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+}
+
+#sjfb-sample label {
+    /*line-height: 1.6em;*/
+}
+
+#sjfb-sample .sjfb-field {
+    margin-bottom: 20px;
+}
+
+#sjfb-sample .sjfb-agree label,
+#sjfb-sample .sjfb-agree input {
+    float: left;
+}
+
+#sjfb-sample .required-field > label:after {
+    content: " *";
+    color: red;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+#sjfb-sample .submit {
+    cursor: pointer;
+    line-height: initial;
+}
+
+
+
+.control-group {
+  display: inline-block;
+  width: 200px;
+  height: 210px;
+  margin: 10px;
+  padding: 30px;
+  text-align: left;
+  vertical-align: top;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(0,0,0,.1);
+}
+
+.control {
+  position: relative;
+  display: block;
+  margin-bottom: 15px;
+  padding-left:10px;
+  cursor: pointer;
+}
+
+.control input {
+  z-index: -1;
+  opacity: 0;
+}
+
+.control__indicator {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  background: #e6e6e6;
+  padding-left: 20px;
+}
+
+.control--radio .control__indicator {
+  border-radius: 50%;
+}
+
+.control--radio{
+  font-weight: 500!important;
+}
+
+.control--checkbox{
+  font-weight: 500!important;
+}
+
+/* Hover and focus states */
+.control:hover input ~ .control__indicator,
+.control input:focus ~ .control__indicator {
+  background: #ccc;
+}
+
+/* Checked state */
+.control input:checked ~ .control__indicator {
+  background: #000;
+}
+
+/* Hover state whilst checked */
+.control:hover input:not([disabled]):checked ~ .control__indicator,
+.control input:checked:focus ~ .control__indicator {
+  background: #000;
+}
+
+/* Disabled state */
+.control input:disabled ~ .control__indicator {
+  pointer-events: none;
+  opacity: .6;
+  background: #e6e6e6;
+}
+
+/* Check mark */
+.control__indicator:after {
+  position: absolute;
+  display: none;
+  content: '';
+}
+
+.control__indicator span{
+  padding-left:5px; 
+}
+
+/* Show check mark */
+.control input:checked ~ .control__indicator:after {
+  display: block;
+}
+
+/* Checkbox tick */
+.control--checkbox .control__indicator:after {
+  top: 4px;
+  left: 8px;
+  width: 3px;
+  height: 8px;
+  transform: rotate(45deg);
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+}
+
+/* Disabled tick colour */
+.control--checkbox input:disabled ~ .control__indicator:after {
+  border-color: #7b7b7b;
+}
+
+/* Radio button inner circle */
+.control--radio .control__indicator:after {
+  top: 7px;
+  left: 7px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+/* Disabled circle colour */
+.control--radio input:disabled ~ .control__indicator:after {
+  background: #7b7b7b;
+}
+
+.select {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.select select {
+  display: inline-block;
+  width: 100%;
+  padding: 10px 15px;
+  cursor: pointer;
+  color: #7b7b7b;
+  border: 0;
+  border-radius: 0;
+  outline: 0;
+  background: #e6e6e6;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.select select::-ms-expand {
+  display: none;
+}
+
+.select select:hover,
+.select select:focus {
+  color: #000;
+  background: #ccc;
+}
+
+.select select:disabled {
+  pointer-events: none;
+  opacity: .5;
+}
+
+.select__arrow {
+  position: absolute;
+  top: 16px;
+  right: 15px;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+  border-width: 8px 5px 0 5px;
+  border-style: solid;
+  border-color: #7b7b7b transparent transparent transparent;
+}
+.select select:hover ~ .select__arrow,
+.select select:focus ~ .select__arrow {
+  border-top-color: #000;
+}
+
+.select select:disabled ~ .select__arrow {
+  border-top-color: #ccc;
+}
+

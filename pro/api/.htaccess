@@ -1,0 +1,12 @@
+RewriteEngine On
+RewriteBase /anyinspect_aircond/pro/api
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{DOCUMENT_ROOT}/%{REQUEST_URI}\.php -f [NC]
+RewriteRule ^(.+?)/?$ $1.php [L]
+
+Options -Indexes 
+
+
+
+

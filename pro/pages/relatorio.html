@@ -1,0 +1,137 @@
+<div class="page" data-name="relatorio">
+    
+    <div class="page-content messages-content">
+
+        <!-- Header -->
+      <div class="header header-mini">
+        <div class="top-profile">
+            <div class="profile" style="width:50%;">
+                <a href="#" class="back-btn back  "><img src="assets/img/icons/arrow.png" alt=""></a>
+                <a href="#" class="profile">
+                   Plano de Ação
+                </a>
+            </div>
+           
+        </div>
+      </div>
+      <div class="content-body">
+        <div class="container-fluid" >
+
+             <div class="row">
+                <div id="sharedContent" class="post-content" style="background:white;padding:10px;margin:auto;margin-bottom: 20px;width: 1280px;">
+                    <h3><strong class="title_form">PLANO DE MANUTENÇÃO, OPERAÇÃO E CONTROLE – PMOC</strong></h3>
+                    
+                    <table border="1" cellspacing="1" cellpadding="0" class="responsive" style="width:100%;height:80px;margin-bottom:20px;">
+                        <tbody>
+                        
+                            <tr>
+                                <td valign="top" width="30%" class="logo_empresa"></td>
+                                <td valign="top" width="40%" class="text-center endereco_empresa"></td>
+                                <td valign="top" width="30%" class="text-center "><div class="id_form" style="width: 50%;float: left;"></div><div style="float:right;" id="qrcode"></div></td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                    <h5><strong>1 – INFORMAÇÕES DO CLIENTE:</strong></h5>
+                    <table border="1" cellspacing="1" cellpadding="0" class="responsive" style="width:100%;height: 97px;margin-bottom:20px;">
+                        <tbody>
+                            <tr>
+                                <td colspan="4" valign="top">Nome:<span class="client_name"></span></td>
+                                <td  valign="top">Data:<span class="data_atividade"></span></td>
+                            </tr>
+                            <tr>
+                                <td colspan="4" valign="top" width="81%">Endereço:<span class="client_address"></span></td>
+                                <td valign="top" width="19%">N.º:<span class="client_number"></span></td>
+                            </tr>
+                            <tr>
+                                <td valign="top" width="23%">Complemento:<span class="client_complemento"></span></td>
+                                <td valign="top" width="24%">Bairro:<span class="client_neighb"></span></td>
+                                <td colspan="2" valign="top" width="33%">Cidade:<span class="client_city"></span></td>
+                                <td valign="top" width="19%">UF:<span class="client_uf"></span></td>
+                            </tr>
+                            <tr>
+                                <td colspan="3" valign="top" width="47%">Telefone:<span class="client_phone"></span></td>
+                                <td colspan="2" valign="top" width="53%">Email:<span class="client_email"></span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <h5><strong>2 – INFORMAÇÕES DO EQUIPAMENTO:</strong></h5>
+                    <table border="1" cellspacing="1" cellpadding="0" class="responsive" style="width:100%;height: 78px;margin-bottom:20px;">
+                        <tbody>
+                            <tr>
+                                <td valign="top" width="61%">Equipamento:<span class="desc_ativo"></span></td>
+                                <td valign="top" width="19%">Modelo:<span class="modelo_ativo"></span></td>
+                            </tr>
+                            <tr>
+                                <td valign="top" width="61%">Nº de Série:<span class="register_ativo"></span></td>
+                                <td valign="top" width="39%">Capacidade:<span class="capacidade_ativo"></span></td>
+                            </tr>
+                            <tr>
+                                <td valign="top" width="61%">Tag:<span class="qrcode_ativo"></span></td>
+                                <td valign="top" width="39%">Localização:<span class="local_ativo"></span></td> 
+                            </tr>
+                            <tr>
+                                <td valign="top" width="61%">Fabricante:<span class="fabricante_ativo"></span></td>
+                                <td valign="top" width="39%"></td> 
+                            </tr>
+                        </tbody>
+                    </table>
+                    <h5><strong>3 – RESPONSÁVEL TÉCNICO:</strong></h5>
+                    <table border="1" cellspacing="1" cellpadding="0" class="responsive" style="width:100%;margin-bottom:20px;">
+                        <tbody>
+                            <tr>
+                                <td valign="top" width="61%">Nome:<span class="nome_resp"></span></td>
+                                <td valign="top" width="39%">Identificação:<span class="cpf_resp"></span></td>
+                            </tr>
+                            <tr>
+                                <td valign="top" width="39%">Telefone:<span class="telefone_resp"></span></td>
+                                <td valign="top" width="61%">CREA:<span class="num_qual_resp"></span></td>
+                            </tr>
+                        
+                        </tbody>
+                    </table>        
+                    <h5><strong>4 – Plano de Manutenção e Controle</strong></h5>
+                    <table border="1" cellspacing="1" cellpadding="0" class="responsive" style=" margin-bottom:80px; height: 400px;width:100%">
+                        <tbody id="table_results">
+                            
+                        </tbody>
+                    </table>
+                    <table cellspacing="1" cellpadding="0" class="responsive" style=" margin-bottom:20px; width: 100%;">
+                        <tbody style="border: 1px solid white;">
+                            <tr>
+                                <td valign="top" width="33%" id="sig_exec"></td>
+                                <td valign="top" width="2%"></td>
+                                <td valign="top" width="33%" id="sig_resp"></td>
+                                <td valign="top" width="2%"></td>
+                                <td valign="top" width="33%" id="sig_client" style="text-align: center;"></td>
+                            </tr>
+                            <tr style="text-align: center;">
+                                <td valign="top" width="33%" style="border-top: 1px solid #222;">Responsável Execução</td>
+                                <td valign="top" width="2%"></td>
+                                <td valign="top" width="33%" style="border-top: 1px solid #222;">Responsável Técnico</td>
+                                <td valign="top" width="2%"></td>
+                                <td valign="top" width="33%" style="border-top: 1px solid #222;">Cliente</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+                
+
+            </div>
+           
+               
+
+        </div>
+        <!-- #/ container -->
+    </div>
+
+    <button id="btGerarPDF">gerar PDF</button>
+
+
+       
+ 
+
+    </div>
+</div>

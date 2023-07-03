@@ -1,0 +1,6 @@
+[{
+        "relation": ["delegate_permission/common.handle_all_urls"],
+        "target" : { "namespace": "android_app", "package_name": "br.com.anyinspect.tecnoair.twa",
+                     "sha256_cert_fingerprints": ["45:4C:45:41:0D:63:DC:12:80:9A:B8:60:05:9B:94:ED:13:CF:4E:ED:A4:EA:EE:4D:20:A0:07:C5:9D:EA:F6:10"] }
+      }
+]

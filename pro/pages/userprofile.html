@@ -1,0 +1,177 @@
+<div class="page" data-name="userprofile">
+    <div class="page-content">
+    	<div class="account-profile">
+    		<div class="block">
+    			<div class="top-profile">
+	                <div class="profile">
+						<a href="#" class="link back ripple">
+							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M0.439312 13.0606L5.75391 18.3752C6.04683 18.6682 6.43069 18.8146 6.81459 18.8146C7.1985 18.8146 7.58236 18.6682 7.87528 18.3752C8.46103 17.7894 8.46103 16.8397 7.87528 16.2539L5.12133 13.5H22.5C23.3284 13.5 24 12.8284 24 12C24 11.1716 23.3284 10.5 22.5 10.5H5.12133L7.87528 7.7461C8.46103 7.1603 8.46103 6.21057 7.87528 5.62477C7.28944 5.03898 6.33975 5.03898 5.75391 5.62477L0.439312 10.9394C-0.146437 11.5251 -0.146437 12.4749 0.439312 13.0606Z" fill="black"></path>
+							</svg>
+						</a>
+						<div class="title">Perfil</div>
+	                </div>
+					<div class="search" style="z-index: 1;">
+						<a class="link popover-open" href="#" data-popover=".popover-links"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						   <rect y="2" width="20" height="3" rx="1.5" fill="#5F5F5F"></rect>
+						   <rect y="18" width="20" height="3" rx="1.5" fill="#5F5F5F"></rect>
+						   <rect x="4" y="10" width="20" height="3" rx="1.5" fill="#5F5F5F"></rect>
+					   </svg></a>
+					   <div class="popover popover-links">
+						   <div class="popover-inner">
+							   <div class="list">
+								   <ul>
+									   <!--<li><a class="list-button hot_reload popover-close" >ForceRefresh</a></li>-->
+									   <li><a class="list-button sync_upload popover-close" >SyncUpload</a></li>
+									   <li><a class="list-button sync_download popover-close" >SyncDownload</a></li>
+									   <li><a class="list-button item-link popover-close" href="/qr-info/">QRInfo</a></li>
+									 <!--<li><a class="list-button item-link popover-close" href="/relatorio/">Relatorio</a></li>-->
+									 <li class="logout_global"><a class="logout_global list-button item-link popover-close" href="#" >Sair</a></li>
+								   </ul>
+							   </div>
+						   </div>
+					   </div>
+				   </div>
+
+            	</div>
+            	<!--<div class="profile-picture" id="user_pic_">
+            		<img src="assets/img/nouser.png" alt="">
+            	</div>
+            	<div class="name-details group-title">
+            		<h4 id="user_name_"></h4>
+            	</div>
+            	<div class="profile-cam">
+            		<a href="#"><img src="assets/img/icons/camera.png" alt=""></a>
+                    <input type="file" name="photo" class="custom-file-upload" />
+            	</div>-->
+
+				<div class="author-bx">
+					<div class="dz-media" id="user_pic_">
+						<img src="assets/img/nouser.png" alt="">
+					</div>
+					<div class="dz-content">
+						<h2 class="name user_name_" ></h2>
+						
+						
+					</div>
+				</div>
+				<div class="container">
+					<div data-space-between="0" data-slides-per-view="auto" data-centered-slides="false" class="swiper-container swiper-init tabbar tab-style-2">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<a href="#tab-1" class="tab-link tab-link-active">Informações</a>
+							</div>
+							<div class="swiper-slide">
+								<a href="#tab-2" class="tab-link">Treinamentos</a>
+							</div>
+							<div class="swiper-slide">
+								<a href="#tab-3" class="tab-link">Habilitações</a>
+							</div>
+							<div class="swiper-slide">
+								<a href="#tab-4" class="tab-link">Links Úteis</a>
+							</div>
+						</div>
+					</div>
+					<div class="list simple-list searchbar-not-found">
+						<ul>
+							<li>Nothing found</li>
+						</ul>
+					</div>
+				</div>
+
+
+				<div class="tabs-swipeable-wrap mt-30 tabs-height-auto">
+					<div class="tabs">
+						<div id="tab-1" class="tab tab-active">
+							<div class="widget_getintuch pb-15">
+								<ul>
+									<li>
+										<div class="dz-content">
+											<p class="sub-title">Nome</p>
+											<h5 class="title user_name_" ></h5>
+										</div>
+									</li>
+									<li>
+										<div class="dz-content">
+											<p class="sub-title">Email</p>
+											<h5 class="title user_email_"></h5>
+										</div>
+									</li>
+									<li>
+										<div class="dz-content">
+											<p class="sub-title">Telefone</p>
+											<h5 class="title user_phone_"></h5>
+										</div>
+									</li>
+									<li>
+										<div class="dz-content">
+											<p class="sub-title">Cracha</p>
+											<h5 class="title user_cracha_"></h5>
+										</div>
+									</li>
+									<li>
+										<div class="dz-content">
+											<p class="sub-title">Data Admissão</p>
+											<h5 class="title user_data_admicao_"></h5>
+										</div>
+									</li>
+									<li>
+										<div class="dz-content">
+											<p class="sub-title">Assinatura</p>
+											<div id="box_sig_user" style="margin:auto;"></div>
+										</div>
+									</li>
+
+								</ul>
+								
+							</div>
+						</div>
+						<div id="tab-2" class="tab">
+							<div class="rewards-list container mb-20">
+								<ul id="lista_qual">									
+								</ul>
+							</div>
+						</div>
+						<div id="tab-3" class="tab">
+							<div class="rewards-list container mb-20">
+								<ul id="lista_habilitacao">									
+								</ul>
+							</div>
+						</div>
+						<div id="tab-4" class="tab">
+							<div class="rewards-list container mb-20">
+								<ul id="lista_links">									
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+
+				
+				<!--<div class="media-section">
+					<div class="block">
+						<div class="media-col">
+							<div class="title-col">
+								<h6>Identificacao</h6>
+							</div>
+							<div class="title-col">
+								<div class="col-100  mb-0" style="margin:auto;" id="qr_user_"></div>
+							</div>
+							<div id="box_sig_user" style="margin:auto;">
+							</div>
+						</div>
+					</div>
+				</div>-->
+
+				
+
+
+    		</div>
+    	</div>
+		
+		
+    </div>
+</div>

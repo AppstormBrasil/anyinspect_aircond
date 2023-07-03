@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+	<title>AnyInspect - Inspeção e Qualidade</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-title" content="AnyInspect">
+	<meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap:">
+	<meta name="apple-mobile-web-app-title" content="AnyInspect">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name = "mobile-web-app-capable" content = "yes">
+	<meta name="theme-color" content="#fff"/>
+	<meta name="description" content="Danata - AnyInspect">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/img/ico/favicon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/img/pwaicons/ios/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/pwaicons/ios/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/pwaicons/ios/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/pwaicons/ios/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/img/pwaicons/ios/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/img/pwaicons/ios/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/img/pwaicons/ios/apple-touch-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/pwaicons/ios/apple-touch-icon-180x180.png" />
+    <link rel="apple-touch-startup-image" href="assets/img/splash/launch-640x1136.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+    <link rel="apple-touch-startup-image" href="assets/img/splash/launch-750x1294.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+    <link rel="apple-touch-startup-image" href="assets/img/splash/launch-1242x2148.png" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+    <link rel="apple-touch-startup-image" href="assets/img/splash/launch-1125x2436.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+    <link rel="apple-touch-startup-image" href="assets/img/splash/launch-1536x2048.png" media="(min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)">
+    <link rel="apple-touch-startup-image" href="assets/img/splash/launch-1668x2224.png" media="(min-device-width: 834px) and (max-device-width: 834px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)">
+    <link rel="apple-touch-startup-image" href="assets/img/splash/launch-2048x2732.png" media="(min-device-width: 1024px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)">
+	<link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="assets/css/framework7.bundle.min.css">
+	<link rel="stylesheet" href="assets/css/framework7-icons.css">
+	<link rel="stylesheet" href="assets/plugins/fontawesome2/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/css/style.min.css?v1.1">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/leaflet.min.css" />
+</head>
+<body>
+    <div id="app" style="position:fixed">
+		<div style="position: absolute;z-index: 8888;background: #111;width: 100%;color: #fff;text-align: center;" id="status_app"></div>
+        <div class="view view-main view-init ios-edges" data-url="/">
+			<div class="page" data-name="index">
+            </div>
+		<div style="display:none;position: absolute;z-index: 8888;background: #ffffff;width: 100%;color: #fff;text-align: center;height: 60px;line-height: 60px;bottom: 0px;" id="sync_app"></div>
+		</div>
+	</div>
+	<div class="sheet-modal install_app_ios" style="height:auto; --f7-sheet-bg-color: #fff;">
+		<div class="sheet-modal-inner">
+		  <div class="page-content" style="text-align: center;">
+			<br>
+			<p style="text-align:center">Siga os passos para instalar o App</p>
+			<p>
+				<img style="margin:auto;border-radius:10px;" src="assets/img/ico/favicon.png" alt="logo" />
+			</p>
+			<div class="block">
+			  <p style="color:#222;">1º Click em <br><img style="margin:auto;margin-top: 5px;margin-bottom: 10px;width: 40px;" src="assets/img/shareios.jpg">
+				<p style="color:#222;">2º Adicionar á Tela Inicio <br><img style="margin:auto;width:40px;" src="assets/img/iosadd.png"> </p>
+			</div>
+			<img style="margin:auto;" width="100" src="assets/img/clickhere.gif"> 
+		  </div>
+		</div>
+	</div>
+	<div class="sheet-modal install_app" style="height:auto; --f7-sheet-bg-color: #fff;">
+		<div class="sheet-modal-inner">
+		<div class="page-content">
+			<br>
+			<p style="text-align:center">
+				<img style="margin:auto;border-radius:10px;" src="assets/img/ico/favicon.png" alt="logo" />
+			</p>
+			<div class="block">
+				<p style="text-align:center">Click no botão para Instalar Aplicativo</p>
+				<div class="button-default">
+					<button class="button btn scaleffect no-active-state install_android ">Instalar</button>
+				</div><br><br>
+			</div>
+		</div>
+		</div>
+	</div>
+	<script src="assets/js/jquery-3.5.1.min.js"></script>
+	<script src="assets/js/qr/html5-qrcode.min.js"></script>
+	<script src="assets/js/qr/qrcode.min.js"></script>
+    <script src="assets/js/framework7.bundle.min.js"></script>
+	<script src="assets/js/Utils.js?v1.1"></script>
+	<script src="assets/js/web-animations.min.js"></script>
+	<script src="assets/js/animatelo.min.js"></script>
+	<script src="assets/js/jq-signature.min.js"></script>
+	<script src="assets/js/signature_pad.min.js"></script>
+	<script src="assets/js/leaflet.js"></script>
+	<script src="assets/js/apex/apexcharts.min.js"></script>
+    <!--<script type="text/javascript" src="assets/js/jspdf.debug.js"></script>
+	<script type="text/javascript" src="assets/js/html2canvas.min.js"></script>-->
+	<script src="assets/js/routes.js"></script>
+	<script src="assets/js/app.js"></script>
+	<script src="assets/js/appoff.min.js"></script>
+	<script src="assets/js/offdb.min.js"></script>
+	<input type="hidden" id="current_edit_id_exec" value="" />
+	<input type="hidden" id="temp_new_image" value="" />
+</body>
+</html>

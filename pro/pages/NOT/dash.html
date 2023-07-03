@@ -1,0 +1,115 @@
+<div class="page" data-name="dashboard">
+
+    <div class="page-content">
+
+        <!-- Header -->
+       <div class="header header_dash">
+            <div class="top-profile">
+                <a class="profile  item-link" href="/userprofile/">
+                    <span class="avatar"><img class="user_img" src="assets/img/nouser.png" alt=""></span>
+                    <span class="user_name" ></span>
+                </a>
+                <div class="search" style="z-index: 1;">
+                    <a href="#" class="search-icon"><img src="assets/img/icons/search.png" alt=""></a>
+                    <a class="link popover-open" href="#" data-popover=".popover-links"><img src="assets/img/icons/hamburger-icon.svg" alt=""></a>
+                    <div class="popover popover-links">
+                        <div class="popover-inner">
+                            <div class="list">
+                                <ul>
+                                  <!--<li><a class="list-button item-link popover-close" href="/create-group-profile/">New Group</a></li>
+                                  <li><a class="list-button item-link popover-close" href="/contacts/">Contacts</a></li>
+                                  <li><a class="list-button item-link popover-close" href="/settings/">Settings</a></li>-->
+                                  <li><a class="list-button item-link popover-close" href="/userprofile/">Perfil</a></li>
+                                  <li class="logout_global"><a class="logout_global list-button item-link popover-close" href="#" >Sair</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              
+                <!-- Searchbar with auto init -->
+                <div class="searchbar-custom">
+                    <form class="searchbar searchbar-init" data-search-container=".list" data-search-in=".item-title">
+                        <div class="searchbar-inner">
+                        <div class="searchbar-input-wrap">
+                            <input type="search" placeholder="Search">
+                            <i class="searchbar-icon"></i>
+                            <span class="input-clear-button"></span>
+                        </div>
+                            <span class="searchbar-disable-button if-not-aurora"><i class="f7-icons">multiply_circle</i></span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+           <div><h1 style="color: #ffffff;font-size:35px;font-weight:700;text-align:center;" id="day_today"></h1></div>
+            
+            <div class="add-new-btn">
+                <a class="scaleffect no-active-state refresh_events"><i class="fa fa-refresh"></i></a>
+            </div>
+       </div>
+       <!-- /Header -->
+ 
+     
+        
+        <div class="chat-list-new start_block" >
+            <div class="container">
+
+                <div class="header-searchbar">
+                    <form class="searchbar">
+                        <div class="searchbar-inner">
+                            <div class="searchbar-input-wrap">
+                                <input id="search_events" type="search" placeholder="" class="">
+                                <i class="searchbar-icon"></i>
+                                <span class="input-clear-button"></span>
+                            </div>
+                            <span class="searchbar-disable-button">Cancelar</span>
+                        </div>
+                    </form>
+                </div>
+                <div class="block-title">
+                    <h3>Atividades Hoje <span style="float:right;margin-right: 10px;" id="total_home"></span></h3>
+                </div>
+
+
+                <div class="list no-hairlines media-list chat-list searchbar-found">
+                    <div id="open_list_dash"></div>
+                </div>
+            </div>
+        
+        </div>
+        
+        
+        <div class="fab fab-center-bottom">
+            <a href="#">
+              <i class="icon f7-icons if-not-md" style="font-size: 35px;">plus</i>
+              <i class="icon f7-icons if-not-md" style="font-size: 35px;">xmark</i>
+              <i class="icon material-icons md-only" style="font-size: 35px;">add</i>
+              <i class="icon material-icons md-only" style="font-size: 35px;">close</i>
+            </a>
+            <div class="fab-buttons fab-buttons-top">
+              <a class="fab-label-button link" href="/qr-info/"><span>1</span><span class="fab-label">QR Code</span></a>
+              <a class="fab-label-button" href="#"><span>2</span><span class="fab-label">Solicitação Técnica</span></a>
+            </div>
+         </div>
+    
+        <div class="toolbar toolbar-bottom toolbar-only-bottom" style="z-index:1;">
+            <div class="row toolbar-inner">
+                <div class="col-33"><a class="scaleffect no-active link"><i class="fa fa-home"></i></a></div>
+               
+                <!--<div class="col-33 open_camera"><a href="/qr-info/" class="link scaleffect no-active"><i class="fa fa-qrcode"></i></a></div>-->
+                <div class="col-33"><a href="/calendario/" class="link scaleffect no-active"><i class="fa fa-calendar"></i></a></div>
+            </div>
+        </div> 
+    
+    
+    
+    
+    
+    </div>
+
+       
+        
+         
+
+
+</div>

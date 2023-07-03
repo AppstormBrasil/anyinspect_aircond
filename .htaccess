@@ -1,0 +1,46 @@
+RewriteEngine On
+RewriteBase /anyinspect_aircond
+ErrorDocument 404 /404.php
+
+
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{DOCUMENT_ROOT}/%{REQUEST_URI}\.php -f [NC]
+RewriteRule ^(.+?)/?$ $1.php [L]
+Options -Indexes
+
+
+
+RewriteRule cliente-(.*)  cliente.php?id=$1
+RewriteRule subcontrato-(.*)  subcontrato.php?id=$1
+RewriteRule venda_produto-(.*) venda_produto.php?id=$1
+RewriteRule pacote-(.*)  pacote.php?id=$1
+RewriteRule servico-(.*)  servico.php?id=$1
+RewriteRule funcionario-(.*)  funcionario.php?id=$1
+RewriteRule produto-(.*)  produto.php?id=$1
+RewriteRule func-comissao-(.*)-(.*)  func-comissao.php?id=$1&month=$2
+RewriteRule cliente_boleto-(.*)-(.*)  cliente_boleto.php?id=$1&month=$2
+RewriteRule fatura-(.*)  fatura.php?&month=$1
+RewriteRule ativo-(.*)  ativo.php?id=$1
+RewriteRule ferramenta-(.*)  ferramenta.php?id=$1
+RewriteRule atividade-(.*)-(.*)  atividade.php?id=$1&form=$2
+RewriteRule relatorio-(.*)-(.*)  relatorio.php?id=$1&form=$2
+RewriteRule relatoriopmoc-(.*)-(.*)  relatoriopmoc.php?id=$1&form=$2
+RewriteRule localizacao-(.*)  localizacao.php?id=$1
+RewriteRule detalhe-grupo-(.*)  detalhe-grupo.php?id=$1
+RewriteRule rel-atv-(.*)  rel-atv.php?id=$1
+RewriteRule relatoriotreinamento-(.*)  relatorio-treinamento.php?id=$1
+RewriteRule relatoriocolaborador/(.*)  relatoriocolaborador.php?id=$1
+RewriteRule designacaogso/(.*)  designacaogso.php?id=$1
+RewriteRule designacaoiioars/(.*)  designacaoiioars.php?id=$1
+RewriteRule emissaocertificado/(.*)  emissaocertificado.php?id=$1
+RewriteRule editcertificado/(.*)  editcertificado.php?id=$1
+RewriteRule editcertificadoteam/(.*)  editcertificadoteam.php?id=$1
+RewriteRule manual/(.*)  manual.php?id=$1
+RewriteRule relatorio_24/(.*)  relatorio_24.php?id=$1
+
+
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Este domínio herda o pacote “PHP”.
+# php -- END cPanel-generated handler, do not edit

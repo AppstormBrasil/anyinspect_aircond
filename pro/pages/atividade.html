@@ -1,0 +1,149 @@
+<div class="page" data-name="atividade">
+    <div class="page-content">
+        <div class="header header-mini">
+            <div class="top-profile">
+                <div class="profile" style="width:50%;">
+                    <a href="#" class="link back">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.439312 13.0606L5.75391 18.3752C6.04683 18.6682 6.43069 18.8146 6.81459 18.8146C7.1985 18.8146 7.58236 18.6682 7.87528 18.3752C8.46103 17.7894 8.46103 16.8397 7.87528 16.2539L5.12133 13.5H22.5C23.3284 13.5 24 12.8284 24 12C24 11.1716 23.3284 10.5 22.5 10.5H5.12133L7.87528 7.7461C8.46103 7.1603 8.46103 6.21057 7.87528 5.62477C7.28944 5.03898 6.33975 5.03898 5.75391 5.62477L0.439312 10.9394C-0.146437 11.5251 -0.146437 12.4749 0.439312 13.0606Z" fill="black"></path>
+                        </svg>
+                    </a>
+                    <div class="title">  Atividade</div>
+                </div>
+                <div class=" status_activity search call-action" ></div>
+            </div>
+       </div>
+      <div class="tabs-animated-wrap start_block_small">
+        <div class="tabs">
+          <div id="tab-1" class="page-content tab tab-active">
+                <div class="block" style="margin-bottom: 90px;">
+                    <div class="title-col">
+    					<h6>Dados da Empresa</h6>
+    				</div>
+                    <div class="item row">
+                        <div class="col-20  mb-0"> <img id="foto_empresa" style="min-width: 70px;min-height: 70px;border-radius: 50%;" src="assets/img/noimage.png" alt=""></div>
+                        <div class="col-80">
+                            <span class="main-title" id="nome_empresa_at" style="font-size: 17px;"></span><br>
+                            <span class="sub-title" id="end_empresa_at" ></span>
+                            <span class="sub-title" id="phone_cliente" ></span>
+                        </div>
+                    </div>
+                    <div class="title-col">
+    					<h6>Dados da Atividade</h6>
+    				</div>
+                        <div class="atv_detail">
+                            <div class="item row">
+                                <div class="col-100  mb-0">Atividade</div>
+                                <div class="col-100" id="titulo_atividade" >-</div>
+                            </div>
+                            <div class="item row">
+                                <div class="col-100 mb-0">Ativo</div>
+                                <div class="col-100" id="ativo_equipamento" >-</div>
+                            </div>
+                            <div class="item row">
+                                <div class="col-100 mb-0">Localização</div>
+                                <div class="col-100" id="local_ativo" >-</div>
+                            </div>
+                            <div class="item row">
+                                <div class="col-100 mb-0">Data Atividade</div>
+                                <div class="col-100" id="data_atividade">01/01/2020 07:00</div>
+                            </div>
+                            <div class="item row">
+                                <div class="col-100 mb-0">Tempo Estimado</div>
+                                <div class="col-100" id="tempo_estimado"></div>
+                            </div>
+                            <div class="item row">
+                                <div class="col-100 mb-0">Prioridade</div>
+                                <div class="col-100" id="prioridade_"></div>
+                            </div>
+                            <div class="item row">
+                                <div class="col-100 mb-0">Observações</div>
+                                <div class="col-100" id="info_extra"></div>
+                            </div>
+                            <div class="item row">
+                                <div class="col-100 mb-0" style="font-weight: bold;">Ferramentas</div>
+                                <div class="col-100" id="info_tool"></div>
+                            </div>
+                            <!--<div class="item row">
+                                <div class="col-100 mb-0">Material</div>
+                                <div class="col-100" id="info_material"></div>
+                            </div>-->
+                        </div>
+
+                       
+                        <div id="btn_action_service">
+                        </div>
+                        <input type="hidden" id="id_atividade">
+                        <input type="hidden" id="id_form">
+                        <input type="hidden" name="current_status" id="current_status">
+                        <input type="hidden" name="flow_approve" id="flow_approve">
+                        <input type="hidden" name="geo_location" id="geo_location">
+                        <input type="hidden" name="image_require" id="image_require">
+                        <input type="hidden" name="signature" id="signature">
+                        <input type="hidden" name="signature_exec" id="signature_exec">
+                </div>
+          </div>
+          <div id="tab-2" class="page-content tab">
+            <div class="blocks" style="margin-bottom: 90px;">
+                <div id="sjfb-wrap">
+                    <form class="form" id="sjfb-sample" >
+                        <div id="sjfb-fields"></div>
+                    </form>
+                </div>
+            </div>
+          </div>
+          <div id="tab-3" class="page-content tab">
+            <div class="block" style="margin-bottom:125px;">
+               
+                <div id="box_sig_cli" style="width: 100%;">
+                    <div id="box_action_sigcli" class="box row"></div>
+                </div>
+                <div id="box_finish_action" style="padding: 10px;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bottom-submit ">
+        <div class="left left_tab_act"></div>
+        <div class="right act_arrow right_tab_act">
+            <a href="#tab-2" class="submit-btn tab-link"><img src="assets/img/icons/arrow.png" alt=""></a>
+        </div>
+    </div>
+    <div class="active_slide">
+        <ul class="row">
+            <li class="tab1 col-33 active"></li>
+            <li class="tab2 col-33 "></li>
+            <li class="tab3 col-33"></li>
+        </ul>
+    </div>    
+    </div>
+    <div class="sheet-modal open_modal_approve " style="--f7-sheet-bg-color: #fff;min-height:475px;">
+        <div class="sheet-modal-inner">
+        <div class="page-content">
+            <br>
+            <p style="margin: auto;text-align: center;">
+                <img style="margin:auto;border-radius:5px;" src="assets/img/logo_small.png" />
+            </p>
+            <div class="block">
+               <div class="list" id="box_noapprove"></div>
+            </div>
+        </div>
+        </div>
+    </div>
+    
+    <div class="sheet-modal qr_manual_Tag " style="--f7-sheet-bg-color: #fff;min-height:475px;">
+        <div class="sheet-modal-inner">
+        <div class="page-content">
+            <br>
+            <p style="margin: auto;text-align: center;">
+                <img style="margin:auto;border-radius:5px;" src="assets/img/logo_small.png" />
+            </p>
+            <div class="block">
+               <div class="list" id="box_not_found_tag"></div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+</div>
